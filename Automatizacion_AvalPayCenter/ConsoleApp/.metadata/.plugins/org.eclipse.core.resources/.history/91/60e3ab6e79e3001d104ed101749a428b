@@ -1,0 +1,764 @@
+package ClasesBase;
+
+import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.nio.file.Files;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.commons.lang3.time.DateUtils;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import com.itextpdf.text.DocumentException;
+import RunPruebas.RunSprint1;
+import Utilidades.GenerarReportePdf;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import java.nio.file.Path;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Objects;
+
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+import java.util.Iterator;
+import java.util.List;
+
+
+
+
+
+public class ClaseBase {
+
+// LOG
+
+
+
+private static Logger log = LogManager.getLogger(RunSprint1.class.getName());
+
+	
+public static WebDriver driver;
+public WebDriverWait wait;
+
+GenerarReportePdf generarReportePdf = new GenerarReportePdf();
+
+	
+	// CONSTRUCTOR DE CLASE
+	public ClaseBase(WebDriver driver) 
+	{
+		super();
+	}
+	
+	
+
+
+
+	// METODO DE NAVEGADOR
+    public static WebDriver inicializar( String browserType) throws IOException {
+    //CONFIGURACIONES PARA EL NAVEGADOR DE CHROME
+
+        if(browserType.equalsIgnoreCase("Chrome")) {
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--windows-size=1920,1080");
+            options.addArguments("--start-maximized");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--no-sandbox");
+            options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+            //IGNORA ERRORES EN CERTIFICADO EN NAVEGADOR
+			options.addArguments("--ignore-certificate-errors");
+			//DesiredCapabilities cap = DesiredCapabilities.chrome();
+			//cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+
+
+
+ 
+
+
+            driver = new ChromeDriver(options);
+        }else if(browserType.equalsIgnoreCase("Firefox")) {
+            //CONFIGURACIONES PARA EL NAVEGADOR DE FIREFOX
+            WebDriverManager.firefoxdriver().setup();
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--windows-size=1920,1080");
+            options.addArguments("--start-maximized");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--no-sandbox");
+            driver = new FirefoxDriver(options);
+        }else if(browserType.equalsIgnoreCase("MicrosoftEdge")) {
+            //CONFIGURACIONES PARA EL NAVEGADOR DE MICROSOFT EDGE
+            WebDriverManager.edgedriver().setup();
+            EdgeOptions options = new EdgeOptions();
+            driver = new EdgeDriver(options);
+
+        } 
+        
+        return driver; 
+
+        }   
+        
+
+    
+	
+
+	
+// METODOS BASE -->	
+	
+	// METODO DE IMPRIMIR EN CONSOLA
+	public static void printConsole(String texto) {
+		System.out.println(texto);
+	}
+
+	
+
+
+	
+	// METODO PARA COMPROBAR SI UN ELEMENTO SE ENCUENTRA Y ES VISIBLE
+	public void visibilityOfElementLocated(By locator) {
+		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+	
+	
+	// ESPERAR HASTA QUE UN ELEMENTO DESAPAREZCA DE LA PANTALLA
+	public void esperarInvisibilidadElemento(By locator) {
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+	}
+	
+	
+	// METODO ESCAPE
+    public void escape() throws InterruptedException {
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ESCAPE).build().perform();
+        tiempoEspera(2);
+    }
+    
+    
+	// METODO BOTON ENTER
+    public void enter() throws InterruptedException {
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ENTER).build().perform();
+        tiempoEspera(3);
+    }
+	
+    
+  
+    
+	// METODO PARA REFRESCAR LA PAGINA
+    public void refescarPagina() throws InterruptedException {
+    	driver.navigate().refresh();
+    	tiempoEspera(3);
+    }
+	
+	
+	// METODO TIEMPO DE ESPERA
+	public void tiempoEspera(long tiempo) throws InterruptedException
+	{
+		Thread.sleep(tiempo*1000);
+	}
+	
+	
+	// METODOD DE CARGAR UN ARCHIVO
+	public void cargarArchivo(String archivo, By locator, File rutaCarpeta, String generarEvidencia, int tiempo, String steps) throws Exception {
+		// SE MANDA LA RUTA DONDE SE ENCUENTRE EL ARCHIVO
+		File file = new File(archivo);
+		// SE ESTRAE LA RUTA DEL SISTEMA
+		String path = file.getPath();
+		// SE ENVIA MEDIANTE UN SENDKEY (DEBE ENVIARSE A UN ELEMENTO "TYPE:FILE")
+		sendkey(path, locator, rutaCarpeta, generarEvidencia, tiempo, steps);
+
+	}
+		
+	
+	// METODOD DEL XPATH INTERACTIVO
+	public static By xpathInteractivo(By locator, String valorDeRemplazo) {
+
+		String jj = locator.toString().replace("{0}", valorDeRemplazo);
+		String kk = jj.replace("By.xpath:", "");
+		By localizador = By.xpath(kk);
+
+		return localizador;
+	}
+		
+	
+	// METODO CLICK
+	public void click(By locator, File rutaCarpeta, String generarEvidencia, int tiempo, String steps) throws Exception {
+		if (generarEvidencia.equals("SI")) {			
+			try {
+				
+				driver.findElement(locator).click();
+				tiempoEspera(tiempo);
+				ScreenShot(rutaCarpeta, generarEvidencia, steps);
+				log.info("Se hace click sobre el elemento: " + locator);
+				
+			} catch (Exception e) {
+				
+				//ScreenShotError(rutaCarpeta, locator, generarEvidencia, steps, "NO FUE POSIBLE LOCALIZAR EL ELEMENTO: (" +locator+ ") PARA REALIZAR EL CLICK: "+"\n"+"### ERROR COMPLETO: " + e.toString() + " ###" );
+				generarReportePdf.cerrarPlantilla2();
+				printConsole(e.toString());
+				log.error(e.toString());
+				throw new InterruptedException();
+			}
+			
+		} else {		
+			try {
+				
+				driver.findElement(locator).click();
+				tiempoEspera(tiempo);
+				
+			} catch (Exception e) {
+				printConsole(e.toString());
+			}						
+		}
+	}
+
+
+	// METODO BORRAR
+	public void borrar(By locator, File rutaCarpeta, String generarEvidencia, int tiempo, String steps)
+			throws Exception {
+		if (generarEvidencia.equals("SI")) {
+			try {
+
+				driver.findElement(locator).clear();
+				tiempoEspera(tiempo);
+				ScreenShot(rutaCarpeta, generarEvidencia, steps);
+				log.info("Se borra el texto de: " + locator);
+
+			} catch (Exception e) {
+				
+				ScreenShotError(rutaCarpeta, locator, generarEvidencia, steps, "NO FUE POSIBLE LOCALIZAR EL ELEMENTO: (" +locator+ ") PARA BORRAR: "+"\n"+"### ERROR COMPLETO: " + e.toString() + " ###" );
+				printConsole(e.toString());
+				log.error(e.toString());
+				generarReportePdf.cerrarPlantilla2();
+				throw new InterruptedException();
+			}
+
+		} else {
+			try {
+
+				driver.findElement(locator).clear();
+				tiempoEspera(tiempo);
+
+			} catch (Exception e) {
+				printConsole(e.toString());
+			}
+
+		}
+	}
+	
+	
+	// METODO ENVIAR-TEXTO (SENDKEY)
+	public void sendkey(String inputText, By locator, File rutaCarpeta, String generarEvidencia, int tiempo, String steps) {
+		if (generarEvidencia.equals("SI")) {			
+				driver.findElement(locator).sendKeys(inputText);
+				tiempoEspera(tiempo);
+				ScreenShot(rutaCarpeta, generarEvidencia, steps);
+				log.info("Se realiza un envio de texto en: " + locator);
+				
+				try {
+					ScreenShotError(rutaCarpeta, locator, generarEvidencia, steps, "NO FUE POSIBLE LOCALIZAR EL ELEMENTO: (" +locator+ ") PARA REALIZAR EL ENVÝO DEL TEXTO: "+"\n"+"### ERROR COMPLETO: " + e.toString() + " ###" );
+				} catch (Exception e1) {
+					// e1.printStackTrace();
+				}
+				log.error(e.toString());
+				//printConsole(e.toString());
+				//generarReportePdf.cerrarPlantilla2();
+				//throw new InterruptedException();
+			
+			
+		} else {
+			
+			try {
+				
+				driver.findElement(locator).sendKeys(inputText);
+				tiempoEspera(tiempo);
+				
+			} catch (Exception e) {
+				
+				printConsole(e.toString());
+				
+			}
+
+		}
+
+	}
+	boolean isPresent = false;
+	
+	// METODO PARA COMPROBAR SI UN ELEMENTO ESTA PRESENTE
+		public boolean isPresent(By elementLocation, File folderPath, String steps, String elemento)
+				throws InterruptedException, IOException, DocumentException {
+			tiempoEspera(2);
+			isPresent = driver.findElements(elementLocation).size() > 0;
+			if (isPresent == true) {
+				screenshotSencillo(folderPath, steps);
+				return true;
+			} else {
+				
+				screenshotSencillo(folderPath, steps+"La validacion no es exitosa. El elemento " + elemento + " no se encuentra");
+				
+				return false;
+			}
+		}
+		
+		
+			
+	// METODO ENTER (SUBMIT)
+	public void submit(By locator, File rutaCarpeta, String generarEvidencia, String steps, int tiempo) throws Exception {
+		if (generarEvidencia.equals("SI")) {
+			try {
+				
+				driver.findElement(locator).submit();
+				tiempoEspera(tiempo);
+				ScreenShot(rutaCarpeta, generarEvidencia, steps);
+				log.info("Se realiza submit en: " + locator);
+
+			} catch (Exception e) {
+
+				ScreenShotError(rutaCarpeta, locator, generarEvidencia, steps, "NO FUE POSIBLE LOCALIZAR EL ELEMENTO: (" +locator+ ") PARA REALIZAR EL SUBMIT: "+"\n"+"### ERROR COMPLETO: " + e.toString() + " ###" );
+				log.error(e.toString());
+				printConsole(e.toString());
+				generarReportePdf.cerrarPlantilla2();
+				throw new InterruptedException();
+			}
+
+		} else {
+			try {
+
+				driver.findElement(locator).submit();
+				tiempoEspera(tiempo);
+
+			} catch (Exception e) {
+				printConsole(e.toString());
+			}
+
+		}
+
+	}
+		
+	
+	// METODO SCROLL
+	public void scrollWeb(int y, int numMovimiento, File rutaCarpeta, String generarEvidencia, int tiempo, String steps) throws Exception {
+		if (generarEvidencia.equals("SI")) {
+			try {
+				
+				// SCROLL DE PAGINA
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+
+				// EL FOR SIRVE PARA DESPLAZARNOS MUCHAS MAS VECES
+				for (int i = 0; i <= numMovimiento; i++) {
+					js.executeScript("window.scrollBy(0," + y + ")");
+					tiempoEspera(tiempo);
+					ScreenShot(rutaCarpeta, generarEvidencia, steps);
+				}
+				
+			} catch (Exception e) {
+				
+				generarReportePdf.cerrarPlantilla2();
+				printConsole(e.toString());
+				log.error(e.toString());
+				throw new InterruptedException();
+				
+			}
+		} else {
+			try {
+				
+				// SCROLL DE PAGINA
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+
+				// EL FOR SIRVE PARA DESPLAZARNOS MUCHAS MAS VECES
+				for (int i = 0; i <= numMovimiento; i++) {
+					js.executeScript("window.scrollBy(0," + y + ")");
+					tiempoEspera(tiempo);
+				
+				} 
+			} catch (Exception e) {
+				printConsole(e.toString());
+			}
+		}
+	}
+		
+	
+	// METODO DE SCROLL HACIA UN LOCALIZADOR
+	public void scrollElement(By locator,File rutaCarpeta, String generarEvidencia, int tiempo, String steps) throws Exception{
+		
+			try {
+				fluentWait(locator);
+				JavascriptExecutor executor = (JavascriptExecutor) driver;
+				WebElement element = driver.findElement(locator);
+				executor.executeScript("arguments[0].scrollIntoView();", element);
+				tiempoEspera(tiempo);
+				ScreenShot(rutaCarpeta, generarEvidencia, steps);
+				//((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfElementLocated(locator)));
+			} catch (Exception e) {
+				
+				generarReportePdf.cerrarPlantilla2();
+				printConsole(e.toString());
+				log.error(e.toString());
+				throw new InterruptedException();
+				
+			}
+	}
+	
+	
+
+	// METODO DE ESPERA FLUENT WAIT - TIEMPO DE ESPERA HASTA QUE ELEMENTO VISIBLE
+	@SuppressWarnings({ "rawtypes", "unchecked", "deprecation" })
+	public void fluentWait(By locator) {
+		FluentWait wait = new FluentWait(driver);
+		wait.withTimeout(300, TimeUnit.SECONDS);
+		wait.pollingEvery(1, TimeUnit.SECONDS);
+		wait.ignoring(NoSuchElementException.class);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+
+	
+	public void clickElement(By locator, int x, int y, File folderPath, String steps,String generarEvidencia) throws Exception {
+		WebDriverWait wait = new WebDriverWait(driver, 300);
+		Actions builder = new Actions(driver);
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+		ScreenShot(folderPath, generarEvidencia, steps);
+		Action action = builder.moveToElement(element, x, y).click().build();
+		action.perform();
+	}
+
+			
+    
+	// METODOS PARA VERIFICAR LOS ASSERTS -->	
+	
+	// VERIFICA SI UN ELEMENTO SE ENCUENTRA DESPLEGADO
+	public boolean estadoElemento(By locator) {
+		boolean resultado = driver.findElement(locator).isDisplayed();
+		return resultado;
+	}
+	
+	
+	// METODO PARA COMPROBAR SI UN EMLEMENTO SE ENCUENTRA
+    public boolean displayed(By locator, File rutaCarpeta, String generarEvidencia, String steps) throws Exception {
+        if(generarEvidencia.equals("SI")) {
+	        try {
+	        	
+	            boolean displayed = driver.findElement(locator).isDisplayed();
+	            tiempoEspera(2);
+	            ScreenShot(rutaCarpeta, generarEvidencia, steps);
+	            return displayed;
+	            
+	        } catch (Exception e) {
+	        	
+	        	ScreenShotError(rutaCarpeta, locator, generarEvidencia, steps, "LA VALIDACIÓN NO FUE COMPLETADA CORRECTAMENTE, EL ELEMENTO (" +locator+ ") NO SE ENCONTRÓ DESPLEGADO EN LA PÝGINA: "+"\n"+"### ERROR COMPLETO: " +e.toString()+ " ###");
+				printConsole("### LA VALIDACION NO FUE EXITOSA: "+e.toString()+" ###");
+				log.error(e.toString());
+				generarReportePdf.cerrarPlantilla();
+				throw new InterruptedException();
+				
+	        } //return false; 
+		     } else 
+		        { try {
+		        	
+		            boolean displayed = driver.findElement(locator).isDisplayed();
+		            tiempoEspera(2);	
+		            return displayed;
+		            
+		        } catch (Exception e) {
+		        	printConsole(e.toString());
+		        } 
+		        return false;
+		        } 
+		    }
+
+    
+	// METODO QUE ALMACENA EL TEXTO DE UN LOCALIZADOR 
+	public String textoValidacion(By locator, File rutaCarpeta, String steps) throws IOException, DocumentException, InterruptedException {
+		try {
+			
+			String resultado = driver.findElement(locator).getText();
+			screenshotSencillo(rutaCarpeta, steps);
+			return resultado;		
+			
+		} catch (Exception e) {
+			
+			screenshotSencillo(rutaCarpeta, "La validacion no es exitosa el elemento a validar falló");
+			printConsole("### LA VALIDACION NO FUE EXITOSA: "+e.toString()+" ###");
+			log.error(e.toString());
+			generarReportePdf.cerrarPlantilla2();
+			throw new InterruptedException();
+			
+		}
+
+	}
+	
+	
+	// METODO QUE ALMACENA EL TEXTO DE UN LOCALIZADOR 
+	public String textoValidacionSinEvidencia(By locator)
+			throws IOException, DocumentException, InterruptedException {
+
+			String resultado = driver.findElement(locator).getText();
+			return resultado;
+
+	}
+	
+	
+	// METODO VALIDACIÓN DEVUELVE UNA RESPUESTA BOLEANA DE VERDADERO O FALSO QUE SE PUEDE USAR PARA VALIDAD OBJETOS
+	public static boolean validarElemento(By elementLocation, int time) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, time);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
+			return true;
+		} catch (Exception ex) {
+
+			return false;
+		}
+	}
+	
+
+	public void ValidacionObjeto(boolean valor1, String caso, File rutaCarpeta, String Evidencia, String steps)
+			throws Exception
+	{
+		try {
+			
+		
+		if (Evidencia.equals("SI")) {
+			// Si el objeto booleano es verdadero imprimira en evidencias caso exitoso
+			if (valor1 == true)
+			
+			{
+				screenshotSencillo(rutaCarpeta, "La validacion es exitosa  para el caso " + caso);
+			}
+			// En caso contrario imprimira otro mensaje
+			else {
+				screenshotSencillo(rutaCarpeta, "La validacion no es exitosa el elemento a validar no esta presente ");
+
+			}
+		} else if (valor1 == true) {
+			
+			log.info("My Validacion exitosa");
+			
+			
+		}
+		else {
+			log.info("My Validacion fallida");
+		}
+		
+		} catch (Exception e) {
+			screenshotSencillo(rutaCarpeta, "ELEMENTO NO VALIDADO" + e);
+			generarReportePdf.cerrarPlantilla2();
+			
+		}
+
+	}
+	
+	
+	// METODO PARA SABER SI UN CAMPO ESTA HABILITADO (SI ES ASÝ, RETORNA UN ENABLED)
+	public boolean isEnabled(By locator, File rutaCarpeta, String generarEvidencia, String steps, int tiempo)
+			throws DocumentException, MalformedURLException, IOException {
+		if (generarEvidencia.equals("SI")) {
+			try {
+
+				// VERIFICAR SI ESTA HABILITADO UN LOCALIZADOR
+				boolean enabled = driver.findElement(locator).isEnabled();
+				tiempoEspera(tiempo);
+				ScreenShot(rutaCarpeta, generarEvidencia, steps);
+				// RETORNA ENABLED
+				return enabled;
+			} catch (Exception e) {
+				generarReportePdf.cerrarPlantilla2();
+			}
+			return false;
+
+		} else {
+
+			try {
+
+				// VERIFICAR SI ESTA HABILITADO UN LOCALIZADOR
+				boolean enabled = driver.findElement(locator).isEnabled();
+				tiempoEspera(tiempo);
+				return enabled;
+
+			} catch (Exception e) {
+				printConsole(e.toString());
+			}
+
+			return false;
+		}
+	}
+	
+	
+	
+// GENERAR PDF -->
+	
+	// METODO PARA CREAR LA CARPETA DONDE SE ALMACENAN LOS SCREEN'S
+	public File crearCarpeta(String nomTest, String rutaEvidencia) throws IOException {
+		// ALMACENAMOS LA FECHA DEL SISTEMA
+		String fecha = fechaHora();
+		// CREAMOS EL NOMBRE DE LA CARPETA
+		String nomCarpeta = nomTest+"-"+fecha;
+		// OBTENEMOS LA RETA DE ALOJAMIENTO DE SALIDA Y EL NOMBRE DEL TEST A EJECUTAR
+		File directorio = new File(rutaEvidencia+nomCarpeta);
+		// CREAMOS LA CARPETA
+		directorio.mkdir();
+		return directorio;
+	}
+	
+	
+	public static void deleteDirectory(File directory) throws IOException, IOException {
+        if (directory.exists()) {
+            Files.walk(directory.toPath())
+                    .sorted(Comparator.reverseOrder())
+                    .map(Path::toFile)
+                    .forEach(File::delete);
+        }
+    }
+	
+	
+	public static void eliminarCarpeta(String ruta) throws IOException {
+        File directory= new File(ruta);
+        if (directory.exists()) {
+        	for (File file: Objects.requireNonNull(directory.listFiles())) {
+        	if (file.isDirectory()) {
+            	deleteDirectory(file);
+        	} else {
+        		file.delete();
+        	}
+          }
+        }
+    }
+	
+	
+	// METODO PARA TOMAR LA CAPTURA DE PANTALLA
+	public void ScreenShot(File rutaCarpeta, String generarEvidencia, String steps) throws Exception {
+		
+		if(generarEvidencia.equals("SI")) {
+			
+			String hora = HoraSistema();
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(scrFile, new File(rutaCarpeta+"\\"+hora+".png"));
+			
+			String rutaImagen = new File(rutaCarpeta+"\\"+hora+".png").toString();
+			
+			// GENERAR PDF --->
+			// INSTANCIAMOS LA CLASE DE GENERAR PDF
+			GenerarReportePdf informePdf = new GenerarReportePdf();
+			// SE PROCEDE A INSERTAR EL LOCALIZADOR DE LA IMAGEN DEL ENCABEZADO EN EL PDF
+			informePdf.crearbody(steps, rutaImagen);
+			// ELIMINAR LA IMAGEN CREADA
+			eliminarArchivo(rutaImagen);
+			
+		}
+
+	}
+	
+	// METODO PARA TOMAR CAPTURA DE PANTALLA CUANDO FALLE LA AUTOMATIAZACION
+	public void ScreenShotError(File rutaCarpeta, By locator, String generarEvidencia, String steps, String msnError)
+            throws Exception {
+        if (generarEvidencia.equals("SI")) {
+            String hora = HoraSistema();
+            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(scrFile, new File(rutaCarpeta + "\\" + hora + ".png"));
+            String rutaImagen = new File(rutaCarpeta + "\\" + hora + ".png").toString();
+
+
+
+          // INSTACIAMOS LA CLASE GENERAR PDF
+            GenerarReportePdf informePdf = new GenerarReportePdf();
+            // SE PROCEDE A INSERTAR LOCALIZADOR HE IMAGEN EN EL PDF
+
+          
+
+            informePdf.crearbodyError(locator, rutaImagen, msnError, "");
+
+            // ELIMINAR IMAGEN CREADA
+            eliminarArchivo(rutaImagen);
+        }
+    }
+	
+	
+	// METODO SCREENSHOT SENCILLO
+	public byte[] screenshotSencillo(File rutaCarpeta, String steps) throws IOException, DocumentException {
+
+		String hora = HoraSistema();
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String rutaImagen = rutaCarpeta + "\\" + hora + ".png";
+		FileUtils.copyFile(scrFile, new File(rutaImagen));
+		generarReportePdf.crearbody(steps, rutaImagen);
+		eliminarArchivo(rutaImagen);
+		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+	}
+	
+	
+	// METODOD PARA GUARDAR LA FECHA DEL SISTEMA
+	public static String fechaHora() {
+		// TOMAMOS LA FECHA DEL SISTEMA
+		LocalDateTime fechaSistema = LocalDateTime.now();
+		// DEFINIR FORMATO FECHA
+		DateTimeFormatter fecha = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss");
+		// DAR FORMATO A LA FECHA DEL SISTEMA
+		String formatFecha = fecha.format(fechaSistema);
+		return formatFecha;
+	}
+	
+	
+	// METODOD PARA GUARDAR LA FECHA DEL SISTEMA (CON OTRA ESTRUCTURA)
+	public static String fechaHora2() {
+		// TOMAMOS LA FECHA DEL SISTEMA
+		LocalDateTime fechaSistema = LocalDateTime.now();
+		// DEFINIR FORMATO FECHA
+		DateTimeFormatter fecha = DateTimeFormatter.ofPattern("yyyy-MM-dd- HH:mm:ss");
+		// DAR FORMATO A LA FECHA DEL SISTEMA
+		String formatFecha = fecha.format(fechaSistema);
+		return formatFecha;
+	}
+	
+	
+	// METODOD PARA ELIMINAR LAS CAPTURAS DE PANTALLA
+	public void eliminarArchivo(String rutaImagen) {
+
+		File fichero = new File(rutaImagen);
+		fichero.delete();
+	}
+	
+		
+	// METODO PARA GUARDAR LA HORA DEL SISTEMA
+	public String HoraSistema() {
+		// TOMAMOS LA HORA DEL SISTEMA
+		LocalTime horaSistema = LocalTime.now();
+		// DEFINIR FORMATO DE HORA
+		DateTimeFormatter fecha = DateTimeFormatter.ofPattern("HHmmss");
+		// DAR FORMATO A LA HORA DEL SISTEMA
+		String hora = fecha.format(horaSistema);
+		return hora;
+	}
+
+}

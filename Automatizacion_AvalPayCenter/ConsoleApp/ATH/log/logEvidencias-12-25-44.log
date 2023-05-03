@@ -1,0 +1,7 @@
+12:25:44 [main] INFO  RunPruebas.RunSprint1 - Comienza el proceso de automatizacion de CasoDePrueba675450
+12:25:59 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+12:26:22 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Digite aqui su Cedula o Nit']
+12:26:24 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Confirmar Digite aqui su Cedula o Nit']
+12:26:24 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Valor a pagar']
+12:26:26 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //textarea[@id='Detalle del pago']
+12:27:27 [main] ERROR RunPruebas.RunSprint1 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Titular del Medio de Pago'] (tried for 30 second(s) with 1000 milliseconds interval)

@@ -1,0 +1,7 @@
+11:50:54 [main] INFO  RunPruebas.RunPrincipal - Comienza el proceso de automatizacion de CasoDePrueba677025
+11:51:07 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+11:51:33 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Digite aqui su Cedula o Nit']
+11:51:34 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Confirmar Digite aqui su Cedula o Nit']
+11:51:34 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Valor a pagar']
+11:51:35 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //textarea[@id='Detalle del pago']
+11:51:37 [main] ERROR RunPruebas.RunPrincipal - java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1

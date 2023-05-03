@@ -1,0 +1,13 @@
+14:29:23 [main] INFO  RunPruebas.RunPrincipal - Comienza el proceso de automatizacion de CasoDePrueba677025
+14:29:36 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+14:30:07 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Digite aqui su Cedula o Nit']
+14:30:08 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Confirmar Digite aqui su Cedula o Nit']
+14:30:09 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Valor a pagar']
+14:30:10 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //textarea[@id='Detalle del pago']
+14:30:40 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='documentNumberHolder']
+14:30:41 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='nameHolder']
+14:30:41 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='emailHolder']
+14:30:43 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='emailConfirmationHolder']
+14:30:45 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='movilHolder']
+14:30:46 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='movilConfirmationHolder']
+14:30:48 [main] INFO  RunPruebas.RunPrincipal - Finaliza el proceso de automatizacion de CasoDePrueba677025

@@ -1,0 +1,9 @@
+12:03:40 [main] INFO  RunPruebas.RunSprint1 - Comienza el proceso de automatizacion de CasoDePrueba675449
+12:03:56 [main] INFO  RunPruebas.RunHU2 - **EL METODO DE botonVolver HA INICIADO**
+12:03:57 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+12:04:23 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Digite aqui su Cedula o Nit']
+12:04:23 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Confirmar Digite aqui su Cedula o Nit']
+12:04:24 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Valor a pagar']
+12:04:25 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //textarea[@id='Detalle del pago']
+12:04:33 [main] INFO  RunPruebas.RunHU2 - **EL METODO DE botonVolver HA CULMINADO CORRECTAMENTE**
+12:04:33 [main] INFO  RunPruebas.RunSprint1 - Finaliza el proceso de automatizacion de CasoDePrueba675449

@@ -1,0 +1,14 @@
+12:18:49 [main] INFO  RunPruebas.RunPrincipal - Comienza el proceso de automatizacion de CasoDePrueba677025
+12:19:04 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+12:19:22 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Digite aqui su Cedula o Nit']
+12:19:23 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Confirmar Digite aqui su Cedula o Nit']
+12:19:23 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@id='Valor a pagar']
+12:19:24 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //textarea[@id='Detalle del pago']
+12:19:41 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='documentNumberHolder']
+12:19:42 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='nameHolder']
+12:19:42 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='emailHolder']
+12:19:43 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='emailConfirmationHolder']
+12:19:44 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='movilHolder']
+12:19:45 [main] INFO  RunPruebas.RunPrincipal - Se realiza un envio de texto en: By.xpath: //input[@name='movilConfirmationHolder']
+12:20:41 [main] ERROR RunPruebas.RunPrincipal - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id='btn-pasarela-pagar'] (tried for 30 second(s) with 1000 milliseconds interval)
+12:20:41 [main] ERROR RunPruebas.RunPrincipal - java.lang.InterruptedException

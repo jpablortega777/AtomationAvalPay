@@ -1,0 +1,56 @@
+C:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.AssemblyReference.cache
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
+D:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+D:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+D:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+D:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+D:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.AssemblyReference.cache
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\edwardrubiano\Videos\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.AssemblyReference.cache
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\AvalPayCenter (3)\AvalPayCenter\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache

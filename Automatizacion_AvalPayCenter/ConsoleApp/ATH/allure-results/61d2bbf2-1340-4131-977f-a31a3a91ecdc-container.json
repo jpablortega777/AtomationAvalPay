@@ -1,0 +1,1 @@
+{"uuid":"61d2bbf2-1340-4131-977f-a31a3a91ecdc","name":"RunPruebas.RunPrincipal","children":["d192b40b-7ac7-4a5c-a1c6-7c2669b82c32"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1672264147091,"stop":1672264149461}],"afters":[],"links":[],"start":1672264147047,"stop":1672264189228}

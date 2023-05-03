@@ -1,0 +1,7 @@
+17:48:58 [main] INFO  RunPruebas.RunSprint1 - Comienza el proceso de automatizacion de CasoDePrueba675449
+17:49:09 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+17:49:29 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Digite aqui su Cedula o Nit']
+17:49:31 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Confirmar Digite aqui su Cedula o Nit']
+17:49:34 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Valor a pagar']
+17:49:38 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //textarea[@id='Detalle del pago']
+17:50:47 [main] INFO  RunPruebas.RunSprint1 - Finaliza el proceso de automatizacion de CasoDePrueba675449

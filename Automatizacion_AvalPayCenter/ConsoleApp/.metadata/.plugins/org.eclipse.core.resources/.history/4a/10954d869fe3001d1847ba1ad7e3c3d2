@@ -1,0 +1,200 @@
+package PageObjects;
+
+import static org.testng.Assert.assertTrue;
+
+import java.io.File;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import MapsObjects.MapSprint2;
+import Utilidades.Sprint1Utilities;
+import io.qameta.allure.Step;
+
+public class DigitaTusDatosPage extends MapSprint2 {
+
+	public DigitaTusDatosPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	Sprint1Utilities sprint1utilities = new Sprint1Utilities(driver);
+	
+
+	@Step("Metodo para busqueda")
+	public void busqueda(File folderPath, String busqueda) throws Exception 
+	{
+		
+		//sprint1utilities.MetodoIframe(txtBusqueda2, busqueda);tiempoEspera(2);
+		
+	//	sendkey(busqueda, txtBusqueda, folderPath, "Se busca el elemento");
+		click(btnBusqueda, folderPath, "Se da click en boton busqueda", busqueda);
+		//scrollElement(txtServicio);
+		click(btnPagarServicio, folderPath, "Se da click en boton pagar", busqueda);
+		
+		
+	}
+	
+	@Step("Metodo para busqueda boton Continuar")
+	public void formularioContinuar(File folderPath, String busqueda, String documento, String valor, String detalle) throws Exception {
+		busqueda(folderPath, busqueda);
+		//scrollElement(txtDetallePago);
+		//CREAR VARIABLE CON ESCRITURA RANDOM Y USARLA EN LOS CAMPOS REQUERIDOS
+		String ValorDocumento = sprint1utilities.writeRandomNum2(4);
+		
+		sendkey(ValorDocumento, txtDocumento, folderPath, "Se ingresa numero de documento", ValorDocumento);
+		sendkey(ValorDocumento, txtConfirmCedula, folderPath, "Se confirma numero de documento", ValorDocumento);
+		sendkey(valor, txtValor, folderPath, "Se ingresa valor a pagar", ValorDocumento);
+		sendkey(detalle, txtDetallePago, folderPath, "Se ingresa detalle del pago", ValorDocumento);
+		//scrollElement(btnContinuar);
+		click(btnContinuar, folderPath, "Se da click en boton continuar", ValorDocumento);
+	}
+	
+	@Step("Metodo para confirmacion boton Volver")
+	public void botonVolver(File folderPath, String busqueda, String documento, String valor, String detalle)
+			throws Exception {
+		formularioContinuar(folderPath, busqueda, documento, valor, detalle);
+		// click(labelTerminos, folderPath, "Se da click en checkbox Acepto Terminos y
+		// condiciones");
+		clickElement(labelTerminos, -99, 0, folderPath, "Se da click en checkbox Acepto Terminos y condiciones", detalle);
+		click(btnVolver, folderPath, "Se da click en boton volver", detalle);
+
+	}
+
+	/*
+	 * @AUTOR GUSTAVO
+	 * 
+	 */
+
+	@Step("Metodo para confirmacion boton Pagar")
+	public void botonPagar(File folderPath, String busqueda, String documento, String valor, String detalle)
+			throws Exception {
+		//sprint1utilities.MetodoIframe(txtBusqueda2, busqueda);tiempoEspera(2);
+		sprint1utilities.tabEnter();
+		driver.switchTo().defaultContent();
+		tiempoEspera(5);
+		//scrollElement(txtServicio);
+		
+		//click(btnPagarServicio, folderPath, "Se da click en boton pagar");
+		
+		//assertEquals(textoValidacion(btnPagarServicio, folderPath,
+		//		"Se valida CP02 - Boton pagar"),
+		//		"Pagar");
+
+		//System.out.println("Se valida el SP2_HU02_CP02");
+
+		
+		sprint1utilities.enter();
+		tiempoEspera(5);
+		
+		sendkey(documento, TxtDocumento2, folderPath, "Se ingresa numero de documento", detalle);
+
+
+		assertTrue(isPresent(TxtConfirmeCedula2, folderPath, detalle, documento));
+
+		System.out.println("Se valida el SP2_HU02_CP02");
+
+		/*
+		// CREAR VARIABLE CON ESCRITURA RANDOM Y USARLA EN LOS CAMPOS REQUERIDOS
+		String ValorDocumento = sprint1utilities.writeRandomNum2(4);
+		Integer.parseInt(ValorDocumento);
+		sendkey(ValorDocumento, txtDocumento, folderPath, "Se ingresa numero de documento");
+		sendkey(ValorDocumento, txtConfirmCedula, folderPath, "Se confirma numero de documento");
+		sendkey(valor, txtValor, folderPath, "Se ingresa valor a pagar");
+		sendkey(detalle, txtDetallePago, folderPath, "Se ingresa detalle del pago");
+		scrollElement(btnContinuar);
+		click(btnContinuar, folderPath, "Se da click en boton continuar");
+
+		// ASSERT - SP2_HU02_CP02
+		assertTrue(isPresent(btnPagar2, folderPath, "Se valida CP02 - Validar ingreso a paso 3: Confirma tu pago",
+				"Ingreso a Paso 3"));
+		System.out.println("Se valida el SP2_HU02_CP02");
+
+		// ASSERT - SP2_HU02_CP03
+		assertEquals(textoValidacion(assertPaso1Buscar, folderPath,
+				"Se valida CP03 - Validar barra de progreso del proceso de pago -Paso 1 Busca tu servicio o empresa"),
+				"Busca tu servicio o empresa");
+		assertEquals(textoValidacion(assertPaso2Digitar, folderPath,
+				"Se valida CP03 - Validar barra de progreso del proceso de pago -Paso 2 Digita tus datos de pago"),
+				"Digita tus datos de pago");
+		assertEquals(
+				textoValidacion(assertPaso3Confirmar, folderPath,
+						"Se valida CP03 - Validar barra de progreso del proceso de pago -Paso 3 Confirma tu pago"),
+				"Confirma tu pago");
+		assertEquals(
+				textoValidacion(assertPaso3Confirmar, folderPath,
+						"Se valida CP03 - Validar barra de progreso del proceso de pago -Paso 4 Paga fácil y seguro"),
+				"Paga fácil y seguro");
+		assertEquals(
+				textoValidacion(assertPaso3Confirmar, folderPath,
+						"Se valida CP03 - Validar barra de progreso del proceso de pago -Paso 5 Recibe tu comprobante"),
+				"Recibe tu comprobante");
+		System.out.println("Se valida el SP2_HU02_CP03");
+
+		// ASSERT - SP2_HU02_CP04
+		assertTrue(isPresent(assertLogo, folderPath, "Se valida CP04 - Visualizacion del logo del convenio", "Logo"));
+		System.out.println("Se valida el SP2_HU02_CP04");
+
+		// ASSERT - SP2_HU02_CP05
+		assertEquals(textoValidacion(assertCampoServicioaPagar, folderPath,
+				"Se valida CP05 - Se valida que se encuentra el campo Servicio a pagar: con su respectiva informacion y no es editable"),
+				"Servicio a pagar:");
+		assertEquals(textoValidacion(assertCampoDigiteCedula, folderPath,
+				"Se valida CP05 - Se valida que se encuentra el campo Digite aqui su cedula o nit: con su respectiva informacion y no es editable"),
+				"Digite aqui su cedula o nit:");
+		assertEquals(textoValidacion(assertCampoValoraPagar, folderPath,
+				"Se valida CP05 - Se valida que se encuentra el campo Valor a pagar: con su respectiva informacion y no es editable"),
+				"Valor a pagar:");
+		assertEquals(textoValidacion(assertCampoCostoTransaccion, folderPath,
+				"Se valida CP05 - Se valida que se encuentra el campo Costo de la transacción: con su respectiva informacion y no es editable"),
+				"Costo de la transacción:");
+		assertEquals(textoValidacion(assertCampoDetallePago, folderPath,
+				"Se valida CP05 - Se valida que se encuentra el campo Detalle del pago: con su respectiva informacion y no es editable"),
+				"Detalle del pago:");
+		System.out.println("Se valida el SP2_HU02_CP05");
+
+		click(btnPagar2, folderPath, "Se da click en boton pagar");
+
+		// ASSERT - SP2_HU02_CP09
+		assertEquals(textoValidacion(assertTerminosCondiciones, folderPath,
+				"Se valida CP09 - Se valida que se encuentra la alerta de que no acepto los terminos y condiciones"),
+				"Por favor acepta los términos y condiciones de uso para realizar tu pago.");
+		assertEquals(
+				textoValidacion(btnCerrar, folderPath, "Se valida CP09 - Se valida que se encuentra el boton Cerrar"),
+				"Cerrar");
+		System.out.println("Se valida el SP2_HU02_CP09");
+
+		// ASSERT - SP2_HU02_CP10
+		assertEquals(
+				textoValidacion(assertMensajePagoAgil, folderPath,
+						"Se valida CP10 - Se valida que se encuentra el mensaje informativo de Pago Agil"),
+				"Utiliza el Pago Ágil, para que no tengas que diligenciar la información del pago si ya te encuentras registrado en nuestro portal");
+		System.out.println("Se valida el SP2_HU02_CP10");
+
+		// click(rowTerminos, folderPath, "Se da click en checkbox Acepto Terminos y
+		// condiciones");
+		clickElement(labelTerminos, -99, 0, folderPath, "Se da click en checkbox Acepto Terminos y condiciones");
+		click(btnPagar2, folderPath, "Se da click en boton pagar");
+
+		// ASSERT - SP2_HU02_CP12
+		assertEquals(
+				textoValidacion(assertFormularioPasarela, folderPath,
+						"Se valida CP12 - Validar que el botón Pagar se dirija a la pasarela de pagos"),
+				"Titular del Medio de Pago");
+		System.out.println("Se valida el SP2_HU02_CP12");*/
+
+	}
+
+	@Step("Metodo para confirmacion boton Pago Agil")
+	public void botonPagoAgil(File folderPath, String busqueda, String documento, String valor, String detalle)
+			throws Exception {
+		formularioContinuar(folderPath, busqueda, documento, valor, detalle);
+		// click(labelTerminos, folderPath, "Se da click en checkbox Acepto Terminos y
+		// condiciones");
+		clickElement(labelTerminos, -99, 0, folderPath, "Se da click en checkbox Acepto Terminos y condiciones", detalle);
+		click(btnPagoAgil, folderPath, "Se da click en boton Pago Agil", 0, detalle);
+	}
+
+}
+
+

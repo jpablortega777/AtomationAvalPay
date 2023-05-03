@@ -1,0 +1,1 @@
+16:24:48 [main] ERROR RunPruebas.RunPrincipal - java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getCellType()" because "Utilidades.ExcelUtilidades.Cell" is null

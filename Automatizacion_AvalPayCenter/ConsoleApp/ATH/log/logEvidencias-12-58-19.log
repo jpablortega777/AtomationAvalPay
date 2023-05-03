@@ -1,0 +1,5 @@
+12:58:19 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+12:58:38 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Digite aqui su Cedula o Nit']
+12:58:41 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Confirmar Digite aqui su Cedula o Nit']
+12:58:44 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='Valor a pagar']
+12:58:48 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //textarea[@id='Detalle del pago']

@@ -1,0 +1,3 @@
+14:43:55 [main] INFO  RunPruebas.RunSprint1 - Comienza el proceso de automatizacion de CasoDePrueba695181
+14:44:09 [main] INFO  RunPruebas.RunSprint1 - Se realiza un envio de texto en: By.xpath: //input[@id='search']
+14:45:01 [main] ERROR RunPruebas.RunSprint1 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='Digite aqui su Cedula o Nit'] (tried for 30 second(s) with 1000 milliseconds interval)

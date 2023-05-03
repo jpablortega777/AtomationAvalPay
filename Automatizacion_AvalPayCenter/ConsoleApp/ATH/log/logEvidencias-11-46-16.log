@@ -1,0 +1,1 @@
+11:46:16 [main] ERROR RunPruebas.RunPrincipal - java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()" because "Utilidades.ExcelUtilidades.ExcelWSheet" is null

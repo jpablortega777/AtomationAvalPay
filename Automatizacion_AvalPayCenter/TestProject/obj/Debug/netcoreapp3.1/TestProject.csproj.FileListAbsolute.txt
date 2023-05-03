@@ -1,0 +1,416 @@
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.exe
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.deps.json
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.json
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.dev.json
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.pdb
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.AssemblyReference.cache
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfoInputs.cache
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfo.cs
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CopyComplete
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.dll
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
+C:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.exe
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.deps.json
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.json
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.dev.json
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.pdb
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.AssemblyReference.cache
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfoInputs.cache
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfo.cs
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CopyComplete
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.dll
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
+D:\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.deps.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.dev.json
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.pdb
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.AssemblyReference.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfoInputs.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfo.cs
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CopyComplete
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.dll
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
+C:\Users\edwardrubiano\Videos\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.exe
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\testhost.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.deps.json
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.json
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.dev.json
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\TestProject.pdb
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.AssemblyReference.cache
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfoInputs.cache
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfo.cs
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CopyComplete
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.dll
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
+D:\AvalPayCenter (3)\AvalPayCenter\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache

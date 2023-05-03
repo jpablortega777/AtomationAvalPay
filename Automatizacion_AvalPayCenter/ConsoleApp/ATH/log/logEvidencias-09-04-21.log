@@ -1,0 +1,2 @@
+09:04:21 [main] ERROR RunPruebas.RunPrincipal - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='search'] (tried for 30 second(s) with 1000 milliseconds interval)
+09:04:21 [main] ERROR RunPruebas.RunPrincipal - java.lang.InterruptedException
